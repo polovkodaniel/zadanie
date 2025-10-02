@@ -31,9 +31,9 @@
       margin-bottom: 20px;
     }
 
-    .red { background-color: red; margin-top: 20px; margin-right: 50px; margin-bottom: 30px; margin-left: 10px; }
-    .blue { background-color: blue; margin-top: 10px; margin-right: 20px; margin-bottom: 40px; margin-left: 60px; }
-    .green { background-color: green; margin-top: 5px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
+    .Czerwony{ background-color: red; margin-top: 20px; margin-right: 50px; margin-bottom: 30px; margin-left: 10px; }
+    .Niebieski { background-color: blue; margin-top: 10px; margin-right: 20px; margin-bottom: 40px; margin-left: 60px; }
+    .Zielony { background-color: green; margin-top: 5px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
 
     .o { background-color: #444; margin: 40px; }
     .t { background-color: #666; margin: 20px 60px; }
