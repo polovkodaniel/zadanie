@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadania</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section>
+    <h2>Zadanie 1</h2>
+
+    <div class="Czerwony">Czerwony</div>
+    <div class="Niebieski">Niebieski</div>
+    <div class="Zielony">Zielony</div>
+
+    <h3>Jak zmieniło się położenie każdego bloku po dodaniu marginesów?</h3>
+    <p>Każdy blok został przesunięty względem innych elementów zgodnie z przypisanymi marginesami. Elementy znajdują się dalej od siebie i od krawędzi strony</p>
+
+    <h3>Co się stanie, jeśli dla jednego z divów ustawisz margin-left: auto; margin-right: auto;?</h3>
+    <p>Element zostanie wyśrodkowany poziomo, pod warunkiem że ma ustaloną szerokość</p>
+  </section>
+
+  <section>
+    <h2>Zadanie 2</h2>
+
+    <div class="box o">margin: 40px;</div>
+    <div class="box t">margin: 20px 60px;</div>
+    <div class="box t">margin: 10px 50px 30px;</div>
+    <div class="box f">margin: 5px 20px 10px 40px;</div>
+
+    <h3>Jak różni się rozmieszczenie marginesów w zależności od liczby podanych wartości?</h3>
+    <p>
+      - 1 wartość: wszystkie strony mają taki sam margines<br>
+      - 2 wartości: góra/dół oraz lewo/prawo<br>
+      - 3 wartości: góra, lewo/prawo, dół<br>
+      - 4 wartości: góra, prawo, dół, lewo
+    </p>
+
+    <h3>Kiedy warto stosować skróconą notację zamiast osobnych właściwości?</h3>
+    <p>Gdy chcemy szybko i czytelnie ustawić marginesy — oszczędza to kod i ułatwia utrzymanie stylów<p>
+  </section>
+
+  <section>
+    <h2>Zadanie 3</h2>
+
+    <div class="s">Odstęp nad elementem</div>
+    <div class="n">margin-top: -30px;</div>
+
+    <h3>Co się stało z położeniem elementu po ustawieniu marginesu ujemnego?</h3>
+    <p>Element przesunął się w górę i wszedł w przestrzeń innego elementu. Ujemny margines „wciąga” go w górę.</p>
+
+    <h3>Jakie mogą być konsekwencje używania ujemnych marginesów w praktyce?</h3>
+    <p>Elementy mogą się na siebie nakładać, co może utrudnić układ strony i powodować błędy wizualne. Ujemne marginesy należy stosować z rozwagą.</p>
+  </section>
+  <section>
+    <h2>Zadanie 4 — Centrowanie elementu</h2>
+
+    <div class="centr">Wyśrodkowany blok</div>
+
+    <h3>Dlaczego element się wyśrodkował?</h3>
+    <p>Dzięki margin: auto; oraz ustalonej szerokości, przeglądarka automatycznie rozdzieliła wolną przestrzeń po lewej i prawej stronie.</p>
+
+    <h3>Jakie warunki muszą być spełnione, aby centrowanie margin: auto; działało?</h3>
+    <p>Element musi mieć określoną szerokość i być elementem blokowym. Jego kontener nie może być np. flexem z innym ustawieniem justify-content.</p>
+  </section>
+
+</body>
+</html>
