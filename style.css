@@ -31,9 +31,9 @@
       margin-bottom: 20px;
     }
 
-    .Czerwony { background-color: red; margin-top: 20px; margin-right: 50px; margin-bottom: 30px; margin-left: 10px; }
-    .Niebieski { background-color: blue; margin-top: 10px; margin-right: 20px; margin-bottom: 40px; margin-left: 60px; }
-    .Zielony { background-color: green; margin-top: 5px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
+    .czerwony { background-color: red; margin-top: 20px; margin-right: 50px; margin-bottom: 30px; margin-left: 10px; }
+    .niebieski { background-color: blue; margin-top: 10px; margin-right: 20px; margin-bottom: 40px; margin-left: 60px; }
+    .zielony { background-color: green; margin-top: 5px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
 
     .o { background-color: #444; margin: 40px; }
     .t { background-color: #666; margin: 20px 60px; }
@@ -47,7 +47,6 @@
       text-align: center;
       color: #333;
     }
-
     .n {
       width: 300px;
       height: 100px;
